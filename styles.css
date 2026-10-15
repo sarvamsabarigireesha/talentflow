@@ -1,0 +1,22 @@
+/* ============ Global ============ */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Roboto', sans-serif; line-height: 1.6; color: #333; }
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+/* ============ Nav ============ */
+nav { background: #0a7abf; padding: 1rem 2%; position: fixed; top: 0; width: 100%; z-index: 100; }
+.logo { font-size: 1.5rem; font-weight: 700; color: #fff; }
+.nav-links { display: flex; margin-left: auto; }
+.nav-links li { margin-left: 2rem; }
+.nav-links a { color: #fff; font-weight: 500; transition: 0.3s; }
+.nav-links a:hover { color: #ffdf00; }
+/* ============ Main ============ */
+main { padding-top: 80px; padding-bottom: 40px; }
+.portal { display: none; min-height: 600px; padding: 2rem; }
+.portal.active { display: block; }
+.portal h2 { margin-bottom: 1rem; font-size: 2rem; color: #0a7abf; }
+.portal ul { margin-left: 1.5rem; }
+/* ============ Footer ============ */
+footer { text-align: center; padding: 2rem; background: #f4f4f4; color: #777; font-size: 0.9rem; }
+/* ============ Simple active tab switching ============ */
+nav .active { color: #ffdf00; }
